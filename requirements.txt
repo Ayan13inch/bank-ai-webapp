@@ -1,7 +1,8 @@
-Flask
-pdfplumber
-pytesseract
-pdf2image
-pandas
-openai  # or your LLM client
-gunicorn
+Flask>=2.0
+pandas>=1.5
+pdfplumber>=0.7.6
+pdf2image>=1.16.0
+pytesseract>=0.3.10
+openpyxl>=3.0.0
+python-dotenv>=1.0
+gunicorn>=20.1
